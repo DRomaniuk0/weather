@@ -1,0 +1,25 @@
+.humidity{
+  display: flex;
+  align-items: center;
+  width: 160px;
+  height: 52px;
+  padding: 0 0 0 10px;
+
+  img{
+    margin-right: 15px;
+  }
+
+  .humidity_details{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

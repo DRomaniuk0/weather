@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 375px;
+  min-height: 812px;
+  max-height: 812px;
+  margin: 0 auto;
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  padding: 0 24px;
+  width: 100%;
+}
+
+.today_date{
+  text-align: start;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 20px 0 32px 0;
+  font-size: 20px;
+  line-height: 26px;
+}

@@ -1,0 +1,20 @@
+.weather_block__wrapper{
+  margin-left: 24px;
+
+  .weather_card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+    transition:0.3s ease-out;
+  }
+
+  .weather_card:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+  }
+
+  .weather_card:active{
+    transform: translateY(4px);
+  }
+}
+
